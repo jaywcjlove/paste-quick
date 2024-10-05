@@ -1,0 +1,65 @@
+name: 🙋‍♂️ [Paste Quick] - 支持与反馈
+description: "获取有关 Paste Quick、报告错误或请求功能的帮助。"
+title: '🙋‍♂️ 支持与反馈: Paste Quick'
+labels: ['support', 'feedback', 'question']
+assignees:
+  - jaywcjlove
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <img align="right" height="100" alt="Paste Quick" src="https://github.com/user-attachments/assets/abd2b068-9b1d-412f-9ce4-42b454309f57" /> 
+
+        PasteQuick 是一款注重隐私与简洁的剪贴板管理工具，帮助你高效管理各种临时数据，如文本、链接、图片和代码。它能够记录你复制或剪切的所有内容，并保存到历史列表中，让你快速查找并使用剪贴板记录，从而显著提升工作效率。
+
+        ### 联系信息
+
+        如果您在使用我们的应用时遇到任何问题或需要支持，请随时通过以下方式与我们联系：
+
+        - **电子邮件支持**: [kennyiseeyou@gmail.com](mailto:kennyiseeyou@gmail.com)
+        - **社交媒体**: [Twitter](https://twitter.com/jaywcjlove)
+
+        我们会尽快回复您的消息，感谢您对我们应用的支持！
+
+
+  - type: textarea
+    attributes:
+      label: 🙋‍♂️ 您需要什么帮助？
+      description: 描述您面临的问题或您想要请求的功能。
+      placeholder: 例如，我遇到了问题...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os_version
+    attributes:
+      label: "💻 桌面"
+      description: 您的操作系统和版本。
+      options:
+        - macOS 15.0 (Sequoia)
+        - macOS 14.0 (Sonoma)
+        - iOS 18.0
+        - iOS 17.0
+      default: 0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **如何向我发送应用程序的崩溃报告？**
+
+        - 在 macOS 上打开 Finder
+        - 从“前往”菜单中选择 **前往文件夹…** <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>G</kbd>
+        - 输入：**~/Library/Logs/DiagnosticReports**
+        - 在出现的列表中，选择所有以应用程序名称开头的文件，将它们压缩成 ZIP 文件并发送给我
+        - 将文件附加到此问题中
+
+  - type: textarea
+    attributes:
+      label: ℹ️ 补充说明
+      description: 在此添加有关问题的其他上下文信息。
+      placeholder: 例如：截图、复现步骤等。
+    validations:
+      required: false
