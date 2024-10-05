@@ -25,9 +25,15 @@ minimum OS requirement: `macOS 14.0`
 
 PasteQuick is a privacy-focused and simple clipboard management tool designed to help you efficiently manage various temporary data such as text, links, images, and code. It records everything you copy or cut and saves it in a history list, allowing you to quickly find and use clipboard records, greatly improving your productivity.
 
+![Paste Quick Screenshot 1](./assets/screenshots-1.png)
+
 - **Privacy Protection**: All clipboard history is stored locally on your device, with support for excluding specific applications from being recorded, ensuring data security and privacy.
 - **Multimedia Preview**: PasteQuick supports image thumbnail previews, allowing you to easily and quickly view copied images.
 - **Customization Options**: The tool offers customizable list display options, allowing you to hide or show content based on your needs, fitting different usage scenarios.
+
+![Paste Quick Screenshot 2](./assets/screenshots-2.png)
+
+![Paste Quick Screenshot 3](./assets/screenshots-3.png)
 
 PasteQuick is continuously being optimized and developed to bring more convenience to your daily work. We welcome your valuable feedback and suggestions!
 
