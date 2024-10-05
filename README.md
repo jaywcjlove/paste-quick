@@ -39,6 +39,6 @@ PasteQuick is continuously being optimized and developed to bring more convenien
 
 <!--idoc:config:
 site: Paste Quick
-title: 一款注重隐私的简单剪贴板管理工具，能够高效处理各种临时数据类型，包括文本、链接、图片和代码。
-keywords: PasteQuick, 剪贴板管理器, 隐私工具, 数据管理, 文本管理, 图片管理, 链接管理, 代码片段管理, macOS 应用
+title: A privacy-focused and simple clipboard management tool that efficiently handles various types of temporary data, including text, links, images, and code.
+keywords: PasteQuick, clipboard manager, privacy tool, data management, text management, image management, link management, code snippet manager, macOS app
 -->

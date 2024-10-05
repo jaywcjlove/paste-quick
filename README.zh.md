@@ -9,8 +9,8 @@
     <a target="_blank" href="https://github.com/jaywcjlove/paste-quick/issues/new?assignees=&labels=support%2Cfeedback%2Cquestion&projects=&template=bug_report.yml&title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Quick+RSS">联系&支持</a>
   </p>
   <p>
-    <a target="_blank" href="https://apps.apple.com/app/paste-quick/6723903021" title="PasteQuick AppStore">
-      <img alt="Paste Quick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
+    <a target="_blank" href="https://apps.apple.com/app/paste-quick/6723903021" title="PasteQuick for macOS">
+      <img alt="Paste Quick for macOS" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
     </a>
   </p>
 </div>
@@ -36,6 +36,7 @@ PasteQuick 是一款注重隐私与简洁的剪贴板管理工具，帮助你高
 PasteQuick 正在不断优化开发中，期待为你的工作带来更多便利。欢迎提供宝贵的反馈与建议！
 
 <!--idoc:config:
-title: 「PasteQuick」是一款功能强大且直观的 macOS 桌面 RSS 阅读器，可帮助您轻松管理和阅读您最喜爱的 RSS 源。 - 
-keywords: PasteQuick, RSS 阅读器, macOS RSS 应用, 桌面 RSS, 新闻聚合器, RSS 订阅管理器
+site: Paste Quick
+title: 一款注重隐私的简单剪贴板管理工具，能够高效处理各种临时数据类型，包括文本、链接、图片和代码。
+keywords: PasteQuick, 剪贴板管理器, 隐私工具, 数据管理, 文本管理, 图片管理, 链接管理, 代码片段管理, macOS 应用
 -->
