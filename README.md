@@ -27,6 +27,8 @@ PasteQuick is a privacy-focused and simple clipboard management tool designed to
 
 ![Paste Quick Screenshot 1](./assets/screenshots-1.png)
 
+![Paste Quick Screenshot 4](./assets/screenshots-4.png)
+
 - **Privacy Protection**: All clipboard history is stored locally on your device, with support for excluding specific applications from being recorded, ensuring data security and privacy.
 - **Multimedia Preview**: PasteQuick supports image thumbnail previews, allowing you to easily and quickly view copied images.
 - **Customization Options**: The tool offers customizable list display options, allowing you to hide or show content based on your needs, fitting different usage scenarios.
