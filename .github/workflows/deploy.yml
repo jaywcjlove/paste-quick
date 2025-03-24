@@ -15,11 +15,27 @@ jobs:
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
+          
+      - name: Create Tag
+        id: create_tag
+        uses: jaywcjlove/create-tag-action@main
+        with:
+          test: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+
+      - name: Create Released Tag
+        uses: jaywcjlove/create-tag-action@main
+        with:
+          version: ${{ steps.create_tag.outputs.version }}
+          release: true
+          body: |
+            <a target="_blank" href="https://apps.apple.com/app/videoer/6742680573" title="Videoer for macOS">
+              <img alt="Videoer AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
+            </a>
 
       - name: Create idoc config.
         run: |
           cat > idoc.yml << EOF
-          site: "PasteQuick"
+          site: "PasteQuick {{version:${{ steps.create_tag.outputs.version }}}}"
           description: A privacy-focused and simple clipboard management tool that enables efficient handling of various temporary data types, including text, links, images, and code.
           keywords: PasteQuick, clipboard manager, privacy tool, data management, text management, image management, link manager, code snippet manager, macOS app
           favicon: assets/logo.png
