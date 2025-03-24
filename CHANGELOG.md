@@ -5,6 +5,14 @@ Changelog
 <img alt="Videoer AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v1.6.1](https://github.com/jaywcjlove/paste-quick/releases/tag/v1.6.1)
+
+1. fix: Fixed macOS 14 crash issue by addressing compatibility bug.
+
+---
+
+1. fix: 修复 macOS 14 崩溃问题，解决了兼容性错误。
+
 ## [v1.6.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v1.6.0)
 
 1. feat: Add link cleanup options
