@@ -8,8 +8,8 @@
   <!--rehype:style=border: 0;-->
   <p>
     <a href="./README.zh.md">中文</a> • 
-    <a target="_blank" href="https://github.com/jaywcjlove/paste-quick/issues/new?assignees=&labels=support%2Cfeedback%2Cquestion&projects=&template=bug_report.yml&title=%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Support+%26+Feedback%3A+Paste+Quick">Contact & Support</a> • 
-    <a href="https://github.com/jaywcjlove/paste-quick/releases">Changelog</a>
+    <a target="_blank" href="https://github.com/jaywcjlove/paste-quick/issues/new?template=bug_report.yml">Contact & Support</a> • 
+    <a href="./CHANGELOG.md">Changelog</a>
   </p>
   <p>
     <a target="_blank" href="https://apps.apple.com/app/paste-quick/6723903021" title="Paste Quick for macOS">
