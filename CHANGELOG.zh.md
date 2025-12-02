@@ -10,6 +10,15 @@
 <img alt="Videoer AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.0.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.0.0)
+
+1. feat: 支持 macOS 26
+2. feat: 添加快捷键退出快捷粘贴窗口
+3. feat: 新增快捷键切换菜单
+4. style: 优化窗口样式
+5. fix: 修复快速粘贴顺序错误问题
+6. fix: 修复快捷粘贴快捷键问题
+
 ## [v1.7.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v1.7.0)
 
 1. feat: 新增快捷粘贴功能。

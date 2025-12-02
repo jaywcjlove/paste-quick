@@ -10,6 +10,15 @@ Changelog
 <img alt="Videoer AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.0.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.0.0)
+
+1. feat: add support for macOS 26. 
+2. feat: add keyboard shortcut to close quick paste window. 
+3. feat: add keyboard shortcut to switch menus. 
+4. style: optimize window style. 
+5. fix: fix quick paste order issue. 
+6. fix: fix quick paste shortcut issue. 
+
 ## [v1.7.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v1.7.0)
 
 1. feat: add quick paste feature.
