@@ -10,6 +10,16 @@
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.2.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.2.0)
+
+1. feat: 优化图片文字识别性能
+2. feat: 新增繁体中文、日语、法语、韩语、德语、俄语支持。
+3. perf: 优化列表视图性能。
+4. pref: 优化未授权提示的显示方式。
+5. fix: 修复 macOS 27 上菜单项图标不显示的问题。
+6. style: 优化筛选工具界面样式。
+7. style: 更新设置界面。
+
 ## [v2.1.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.1.0)
 
 1. fix: 修复国际化显示错误。

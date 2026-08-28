@@ -10,6 +10,16 @@ Changelog
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.2.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.2.0)
+
+1. feat: optimize OCR text‑recognition performance.
+2. feat: add support for Traditional Chinese, Japanese, French, Korean, German, and Russian.
+3. perf: improve list-view performance.
+4. pref: improve unauthorized prompt display.
+5. fix: keep menu item icons visible on macOS 27.
+6. style: improve filter-tool UI styling.
+7. style: update the settings interface.
+
 ## [v2.1.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.1.0)
 
 1. fix: Fix internationalization display error.
