@@ -6,9 +6,15 @@
 Changelog
 ===
 
-<a target="_blank" href="https://apps.apple.com/app/videoer/6742680573" title="Videoer for macOS">
-<img alt="Videoer AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
+<a target="_blank" href="https://apps.apple.com/app/PasteQuick/6723903021" title="PasteQuick for macOS">
+<img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
+
+## [v2.1.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.1.0)
+
+1. fix: Fix internationalization display error.
+2. fix: Resolve issue with paid unlock verification error.
+3. perf: Optimize authorization loading.
 
 ## [v2.0.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.0.0)
 

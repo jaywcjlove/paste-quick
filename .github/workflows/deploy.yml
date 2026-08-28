@@ -10,8 +10,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
@@ -28,8 +28,8 @@ jobs:
           version: ${{ steps.create_tag.outputs.version }}
           release: true
           body: |
-            <a target="_blank" href="https://apps.apple.com/app/videoer/6742680573" title="Videoer for macOS">
-              <img alt="Videoer AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
+            <a target="_blank" href="https://apps.apple.com/app/paste-quick/6723903021" title="Paste Quick for macOS">
+              <img alt="Paste Quick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
             </a>
 
       - name: Create idoc config.
@@ -73,12 +73,6 @@ jobs:
             - README.zh.md
             - CHANGELOG.md
             - CHANGELOG.zh.md
-            - terms-of-service.md
-            - feedback.md
-            - feedback.zh.md
-            - terms-of-service.zh.md
-            - privacy-policy.md
-            - privacy-policy.zh.md
           footer: |
             <a href="./terms-of-service.html" target="_blank">Terms of Service</a> • 
             <a href="./privacy-policy.html" target="_blank">Privacy Policy</a> • 

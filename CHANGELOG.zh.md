@@ -6,9 +6,15 @@
 更新日志
 ===
 
-<a target="_blank" href="https://apps.apple.com/app/videoer/6742680573" title="Videoer for macOS">
-<img alt="Videoer AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
+<a target="_blank" href="https://apps.apple.com/app/PasteQuick/6723903021" title="PasteQuick for macOS">
+<img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
+
+## [v2.1.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.1.0)
+
+1. fix: 修复国际化显示错误。
+2. fix: 解决付费解锁验证错误的问题。
+3. perf: 优化授权加载。
 
 ## [v2.0.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.0.0)
 
