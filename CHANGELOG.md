@@ -10,6 +10,13 @@ Changelog
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.3.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.3.0)
+
+1. feat: improve quick‑paste for files and folders.
+2. feat: optimize list styles.
+3. feat: render icons for files and folders.
+4. pref: optimize folder copy management.
+
 ## [v2.2.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.2.0)
 
 1. feat: optimize OCR text‑recognition performance.

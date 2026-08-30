@@ -10,6 +10,13 @@
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.3.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.3.0)
+
+1. feat: 增强文件与文件夹的快速粘贴功能
+2. feat: 优化列表样式
+3. feat: 渲染文件和文件夹图标
+4. pref: 优化文件夹复制管理逻辑
+
 ## [v2.2.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.2.0)
 
 1. feat: 优化图片文字识别性能
