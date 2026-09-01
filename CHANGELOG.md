@@ -10,6 +10,11 @@ Changelog
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.5.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.5.0)
+
+1. feat: add support for MCP stdio mode.
+2. feat: respect multiple pasteboard convention UTI types.
+
 ## [v2.4.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.4.0)
 
 1. feat: add Vietnamese and Italian localization.

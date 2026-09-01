@@ -10,6 +10,11 @@
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.5.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.5.0)
+
+1. feat: 新增 MCP stdio 传输模式支持
+2. feat: 兼容多种剪贴板标准 UTI 数据类型
+
 ## [v2.4.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.4.0)
 
 1. feat: 新增越南语与意大利语本地化支持

@@ -40,6 +40,40 @@ PasteQuick is a privacy-focused and simple clipboard management tool designed to
 
 PasteQuick is continuously being optimized and developed to bring more convenience to your daily work. We welcome your valuable feedback and suggestions!
 
+## AI Direct Access to Clipboard
+
+PasteQuick is powered by the Model Context Protocol (MCP), allowing AI assistants to directly access your clipboard.
+
+AI can retrieve, read, summarize, and analyze clipboard content, making it easy to build custom AI-powered workflows. Your clipboard data, now empowered by AI.
+
+### Configure with Grok
+
+```bash
+# Add the PasteQuick MCP server
+$ grok mcp add pastequick \
+  --transport stdio \
+  --scope user \
+  -- "/System/Applications/PasteQuick.app/Contents/MacOS/PasteQuick" --mcp
+
+# Remove the PasteQuick MCP server
+$ grok mcp remove pastequick
+
+# List configured MCP servers
+$ grok mcp list
+
+# Diagnose the connection status of the PasteQuick MCP server
+$ grok mcp doctor pastequick
+```
+
+You can also configure it directly in `~/.grok/config.toml`:
+
+```ini
+[mcp_servers.pastequick]
+command = "/Applications/PasteQuick.app/Contents/MacOS/PasteQuick"
+args = ["--mcp"]
+enabled = true
+```
+
 <!--idoc:config:
 site: Paste Quick
 title: A privacy-focused and simple clipboard management tool that efficiently handles various types of temporary data, including text, links, images, and code.
