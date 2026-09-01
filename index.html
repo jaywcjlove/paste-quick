@@ -80,7 +80,50 @@
         <p>
           <img src="assets/screenshots-3.png" alt="Paste Quick Screenshot 3">
         </p>
-        <p>PasteQuick is continuously being optimized and developed to bring more convenience to your daily work. We welcome your valuable feedback and suggestions!</p><!--idoc:config:
+        <p>PasteQuick is continuously being optimized and developed to bring more convenience to your daily work. We welcome your valuable feedback and suggestions!</p>
+        <h2 id="ai-direct-access-to-clipboard"><a aria-hidden="true" tabindex="-1" href="#ai-direct-access-to-clipboard" class="anchor"><span class="icon icon-link"></span></a>AI Direct Access to Clipboard</h2>
+        <p>PasteQuick is powered by the Model Context Protocol (MCP), allowing AI assistants to directly access your clipboard.</p>
+        <p>AI can retrieve, read, summarize, and analyze clipboard content, making it easy to build custom AI-powered workflows. Your clipboard data, now empowered by AI.</p>
+        <h3 id="configure-with-grok"><a aria-hidden="true" tabindex="-1" href="#configure-with-grok" class="anchor"><span class="icon icon-link"></span></a>Configure with Grok</h3>
+        <pre class="language-bash"><code class="language-bash code-highlight"><span class="code-line line-number" line="1"><span class="token comment"># Add the PasteQuick MCP server</span>
+</span><span class="code-line line-number" line="2">$ grok mcp <span class="token function">add</span> pastequick <span class="token punctuation">\</span>
+</span><span class="code-line line-number" line="3">  <span class="token parameter variable">--transport</span> stdio <span class="token punctuation">\</span>
+</span><span class="code-line line-number" line="4">  <span class="token parameter variable">--scope</span> user <span class="token punctuation">\</span>
+</span><span class="code-line line-number" line="5">  -- <span class="token string">"/System/Applications/PasteQuick.app/Contents/MacOS/PasteQuick"</span> <span class="token parameter variable">--mcp</span>
+</span><span class="code-line line-number" line="6">
+</span><span class="code-line line-number" line="7"><span class="token comment"># Remove the PasteQuick MCP server</span>
+</span><span class="code-line line-number" line="8">$ grok mcp remove pastequick
+</span><span class="code-line line-number" line="9">
+</span><span class="code-line line-number" line="10"><span class="token comment"># List configured MCP servers</span>
+</span><span class="code-line line-number" line="11">$ grok mcp list
+</span><span class="code-line line-number" line="12">
+</span><span class="code-line line-number" line="13"><span class="token comment"># Diagnose the connection status of the PasteQuick MCP server</span>
+</span><span class="code-line line-number" line="14">$ grok mcp doctor pastequick
+</span></code><input type="hidden" value="# Add the PasteQuick MCP server
+$ grok mcp add pastequick \
+  --transport stdio \
+  --scope user \
+  -- &#x22;/System/Applications/PasteQuick.app/Contents/MacOS/PasteQuick&#x22; --mcp
+
+# Remove the PasteQuick MCP server
+$ grok mcp remove pastequick
+
+# List configured MCP servers
+$ grok mcp list
+
+# Diagnose the connection status of the PasteQuick MCP server
+$ grok mcp doctor pastequick
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <p>You can also configure it directly in <code>~/.grok/config.toml</code>:</p>
+        <pre class="language-ini"><code class="language-ini code-highlight"><span class="code-line line-number" line="1"><span class="token section"><span class="token punctuation">[</span><span class="token section-name selector">mcp_servers.pastequick</span><span class="token punctuation">]</span></span>
+</span><span class="code-line line-number" line="2"><span class="token key attr-name">command</span> <span class="token punctuation">=</span> <span class="token value attr-value">"<span class="token inner-value">/Applications/PasteQuick.app/Contents/MacOS/PasteQuick</span>"</span>
+</span><span class="code-line line-number" line="3"><span class="token key attr-name">args</span> <span class="token punctuation">=</span> <span class="token value attr-value">["--mcp"]</span>
+</span><span class="code-line line-number" line="4"><span class="token key attr-name">enabled</span> <span class="token punctuation">=</span> <span class="token value attr-value">true</span>
+</span></code><input type="hidden" value="[mcp_servers.pastequick]
+command = &#x22;/Applications/PasteQuick.app/Contents/MacOS/PasteQuick&#x22;
+args = [&#x22;--mcp&#x22;]
+enabled = true
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre><!--idoc:config:
         site: Paste Quick
         title: A privacy-focused and simple clipboard management tool that efficiently handles various types of temporary data, including text, links, images, and code.
         keywords: PasteQuick, clipboard manager, privacy tool, data management, text management, image management, link management, code snippet manager, macOS app
