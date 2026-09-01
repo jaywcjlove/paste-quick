@@ -12,9 +12,8 @@
 
 ## [v2.4.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.4.0)
 
-1. feat: 添加 MCP stdio 模式支持
-2. perf: 优化订阅源刷新
-3. chore: 更新 MCP 图标
+1. feat: 新增越南语与意大利语本地化支持
+2. refactor: 优化设置界面展示效果
 
 ## [v2.3.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.3.0)
 

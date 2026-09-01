@@ -12,9 +12,8 @@ Changelog
 
 ## [v2.4.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.4.0)
 
-1. feat: add support for MCP stdio mode. 
-2. perf: optimized feed refresh speed.
-3. chore: update MCP icon. 
+1. feat: add Vietnamese and Italian localization.
+2. refactor: optimize settings UI display.
 
 ## [v2.3.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.3.0)
 
