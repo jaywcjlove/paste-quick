@@ -10,6 +10,12 @@
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.4.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.4.0)
+
+1. feat: 添加 MCP stdio 模式支持
+2. perf: 优化订阅源刷新
+3. chore: 更新 MCP 图标
+
 ## [v2.3.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.3.0)
 
 1. feat: 增强文件与文件夹的快速粘贴功能

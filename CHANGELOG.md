@@ -10,6 +10,12 @@ Changelog
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.4.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.4.0)
+
+1. feat: add support for MCP stdio mode. 
+2. perf: optimized feed refresh speed.
+3. chore: update MCP icon. 
+
 ## [v2.3.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.3.0)
 
 1. feat: improve quick‑paste for files and folders.
