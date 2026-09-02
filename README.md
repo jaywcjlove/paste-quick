@@ -42,7 +42,7 @@ PasteQuick is continuously being optimized and developed to bring more convenien
 
 ## AI Direct Access to Clipboard
 
-PasteQuick is powered by the Model Context Protocol (MCP), allowing AI assistants to directly access your clipboard.
+PasteQuick is powered by the [Model Context Protocol (MCP)](https://modelcontextprotocol.io), allowing AI assistants to directly access your clipboard.
 
 AI can retrieve, read, summarize, and analyze clipboard content, making it easy to build custom AI-powered workflows. Your clipboard data, now empowered by AI.
 

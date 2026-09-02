@@ -40,7 +40,7 @@ PasteQuick 正在不断优化开发中，期待为你的工作带来更多便利
 
 ## AI 直连剪贴板
 
-PasteQuick 基于 Model Context Protocol（MCP），允许 AI 直接访问剪贴板。
+PasteQuick 基于 [Model Context Protocol（MCP）](https://modelcontextprotocol.io)，允许 AI 直接访问剪贴板。
 
 支持 AI 检索、读取、总结、分析剪贴板内容，快速构建自定义 AI 工作流。你的剪贴板数据，赋能 AI。
 
