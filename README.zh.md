@@ -69,6 +69,19 @@ args = ["--mcp"]
 enabled = true
 ```
 
+也可以将以下内容添加到 MCP 客户端配置中(Claude Desktop、Cursor等)：
+
+```json
+{
+  "mcpServers": {
+    "musicer": {
+      "command": "/Applications/PasteQuick.app/Contents/MacOS/PasteQuick",
+      "args": ["--mcp"]
+    }
+  }
+}
+```
+
 <!--idoc:config:
 site: Paste Quick
 title: 一款注重隐私的简单剪贴板管理工具，能够高效处理各种临时数据类型，包括文本、链接、图片和代码。

@@ -74,6 +74,19 @@ args = ["--mcp"]
 enabled = true
 ```
 
+You can also add the following to an MCP client configuration, such as Claude Desktop or Cursor:
+
+```json
+{
+  "mcpServers": {
+    "musicer": {
+      "command": "/Applications/Musicer.app/Contents/MacOS/Musicer",
+      "args": ["--mcp"]
+    }
+  }
+}
+```
+
 <!--idoc:config:
 site: Paste Quick
 title: A privacy-focused and simple clipboard management tool that efficiently handles various types of temporary data, including text, links, images, and code.
