@@ -10,6 +10,14 @@
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.6.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.6.0)
+
+1. feat: 使用已安装密码应用初始化空白排除列表
+2. feat: 将已安装密码应用导入排除列表
+3. fix: 展示带图标的已安装应用，支持从访达选择应用
+4. refactor: 优化安全设置选项显示
+5. chore: 更新应用图标
+
 ## [v2.5.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.5.0)
 
 1. feat: 新增 MCP stdio 传输模式支持

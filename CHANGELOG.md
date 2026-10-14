@@ -10,6 +10,14 @@ Changelog
 <img alt="PasteQuick AppStore" src="https://jaywcjlove.github.io/sb/download/macos.svg" height="51">
 </a>
 
+## [v2.6.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.6.0)
+
+1. feat: seed an empty exclusion list with installed password apps.
+2. feat: import installed password apps into the exclusion list.
+3. fix: list installed apps with icons and choose them from Finder.
+4. refactor: optimize display of security settings options.
+5. chore: Update AppIcon.
+
 ## [v2.5.0](https://github.com/jaywcjlove/paste-quick/releases/tag/v2.5.0)
 
 1. feat: add support for MCP stdio mode.
